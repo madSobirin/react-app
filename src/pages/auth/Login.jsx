@@ -1,4 +1,4 @@
-import { Button } from "../../components/Button/Button";
+import Button from "../../components/Button/Button";
 import InputField from "../../components/Input/InputField";
 
 const Login = () => {

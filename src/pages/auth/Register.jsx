@@ -1,5 +1,5 @@
-import InputField from "../../components/InputField";
-import Button from "../../components/Button";
+import InputField from "../../components/Input/InputField";
+import Button from "../../components/Button/Button";
 
 const Register = () => {
   return (
@@ -13,7 +13,6 @@ const Register = () => {
         />
         <InputField label="Email" type="email" placeholder="Masukkan email" />
         <InputField
-        
           label="Password"
           type="password"
           placeholder="Masukkan password"
