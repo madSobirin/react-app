@@ -1,5 +1,7 @@
+import React from "react";
 import InputField from "../../components/Input/InputField";
 import Button from "../../components/Button/Button";
+import Link from "../../components/Link/Index";
 
 const Register = () => {
   return (
@@ -19,6 +21,7 @@ const Register = () => {
           id="password"
         />
         <Button text="Daftar" />
+        <Link href="/login">Login disini</Link>
       </form>
     </>
   );

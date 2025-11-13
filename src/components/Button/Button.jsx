@@ -1,4 +1,6 @@
-const Button = ({ text, onClick }) => {
+import React from "react";
+const Button = (p) => {
+  const { text, onClick } = p;
   return (
     <button
       onClick={onClick}
