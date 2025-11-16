@@ -1,14 +1,15 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
-const Link = (p) => {
+const Linkk = (p) => {
   const { children, href } = p;
   return (
     <div className="text-center mt-4">
-      <a href={href} className="text-blue-500 hover:underline">
+      <Link to={href} className="text-blue-500 hover:underline">
         {children}
-      </a>
+      </Link>
     </div>
   );
 };
 
-export default Link;
+export default Linkk;

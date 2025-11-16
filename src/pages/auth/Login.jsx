@@ -1,6 +1,7 @@
 import React from "react";
 import Button from "../../components/Button/Button";
 import InputField from "../../components/Input/InputField";
+import Linkk from "../../components/Link/Index";
 
 const Login = () => {
   return (
@@ -12,6 +13,7 @@ const Login = () => {
           type="email"
           placeholder="Masukkan email"
           name="email"
+          className
         />
         <InputField
           label="Password"
@@ -20,6 +22,7 @@ const Login = () => {
           name="password"
         />
         <Button text="Login" />
+        <Linkk href="/register">Register disini</Linkk>
       </form>
     </>
   );
