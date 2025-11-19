@@ -8,6 +8,7 @@ import Register from "./pages/auth/Register.jsx";
 import Book from "./pages/Book.jsx";
 import AuthLayout from "./layouts/AuthLayout.jsx";
 import NotFound from "./pages/404.jsx";
+import ListRender from "./pages/ListRender.jsx";
 
 const router = createBrowserRouter([
   {
@@ -33,6 +34,10 @@ const router = createBrowserRouter([
   {
     path: "*",
     element: <NotFound />,
+  },
+  {
+    path: "/data",
+    element: <ListRender />,
   },
 ]);
 
