@@ -5,7 +5,11 @@ const StatePage = () => {
   return (
     <>
       <div className="flex h-screen items-center justify-center text-white p-5 flex-col ">
-        {show && <label htmlFor="">Ini label yang akan hilang </label>}
+        {show && (
+          <label htmlFor="" className="text-black">
+            Ini label yang akan hilang{" "}
+          </label>
+        )}
 
         <button
           onClick={() => setShow(!show)}

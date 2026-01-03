@@ -3,7 +3,7 @@ import CardComponent from "../components/ui/Card";
 import { data } from "../db/Blog";
 const Blog = () => {
   return (
-    <div>
+    <div className="bg-gray-900">
       <MainLayout>
         <div className="mt-3 px-10">
           {data.map(({ id, judul, deskripsi, isi }) => (
