@@ -1,15 +1,15 @@
 import Navbar from "../components/fragments/Navbar";
 import Header from "../components/fragments/Header";
-import { data } from "../pages/Data";
+import { name } from "../db/Name";
 const MainLayout = ({ children }) => {
   return (
     <div>
-      {data.map((item) => (
-        <Navbar key={item.name} title="navbar" username={item.name} />
+      {name.map(({ name }) => (
+        <Navbar title="navbar" username={name} />
       ))}
+
       <Header title="Header page" />
       {children}
-      {/* <Footer /> */}
     </div>
   );
 };

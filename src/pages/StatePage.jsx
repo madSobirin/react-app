@@ -14,7 +14,7 @@ const StatePage = () => {
           {show ? "Hide" : "Show"}
         </button>
 
-        <div className="mt-5">
+        <div className="mt-5  bg-slate-600 p-2 rounded-sm hover:bg-slate-500 cursor-pointer">
           <Link to="/">Kembali ke Landing Page</Link>
         </div>
       </div>
