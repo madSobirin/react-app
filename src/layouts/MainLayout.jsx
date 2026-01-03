@@ -5,7 +5,7 @@ const MainLayout = ({ children }) => {
   return (
     <div>
       {name.map(({ name }) => (
-        <Navbar title="navbar" username={name} />
+        <Navbar title="Navbar" username={name} />
       ))}
 
       <Header title="Header page" />
