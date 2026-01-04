@@ -6,6 +6,7 @@ import LandingPage from "./pages/LandingPage";
 import NotFound from "./404";
 import StatePage from "./pages/StatePage";
 import Blog from "./pages/Blog";
+import Kondisi from "./pages/Kondisi";
 createRoot(document.getElementById("root")).render(
   <StrictMode>
     <BrowserRouter>
@@ -14,6 +15,7 @@ createRoot(document.getElementById("root")).render(
         <Route path="/state" element={<StatePage />} />
         <Route path="*" element={<NotFound />} />
         <Route path="/blog" element={<Blog />} />
+        <Route path="/kondisi" element={<Kondisi />} />
       </Routes>
     </BrowserRouter>
   </StrictMode>
